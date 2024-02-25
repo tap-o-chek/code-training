@@ -16,9 +16,11 @@ def count_ways_to_use_coupon(S, prices_category1, prices_category2):
 
     return count
 
+# Чтение входных данных
 S = int(input())
 prices_category1 = list(map(int, input().split()))
 prices_category2 = list(map(int, input().split()))
 
+# Подсчет и вывод результата
 result = count_ways_to_use_coupon(S, prices_category1, prices_category2)
 print(result)
